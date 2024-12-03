@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://212.132.97.24:5432/amyskal
+    username: amyskal
+    password: r3Qqa9g3AqvB
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
